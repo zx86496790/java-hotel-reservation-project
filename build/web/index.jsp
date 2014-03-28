@@ -94,7 +94,7 @@
                         <label for="exampleInputPassword1">Password</label>
                         <input type="password" class="form-control" id="exampleInputPassword1" name="userPwd" placeholder="Password">
                     </div>
-                    <button type="submit" class="btn btn-default">Submit</button>
+                    <button type="submit" class="btn btn-default">LOGIN</button>
                 </form>
                 <%
                 }
@@ -130,7 +130,7 @@
                 <%
                 }
 		%>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2444.161338395607!2d-79.38705699999988!3d43.64256601595129!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b34d68bf33a9b%3A0x15edd8c4de1c7581!2sCN+Tower!5e1!3m2!1szh-CN!2sca!4v1395935391847" width="400" height="280" frameborder="0" style="border:0">   
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2444.161338395607!2d-79.38705699999988!3d43.64256601595129!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b34d68bf33a9b%3A0x15edd8c4de1c7581!2sCN+Tower!5e1!3m2!1szh-CN!2sca!4v1395935391847" width="360" height="280" frameborder="0" style="border:0">   
                 </iframe>
                         </div>
                     </div>
