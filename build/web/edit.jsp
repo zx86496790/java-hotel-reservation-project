@@ -68,19 +68,7 @@
                 </div>
                 <%
             }else
-            {
-                String name = "zhnx0249";
-		String password = "oracle";
-		String url = "jdbc:oracle:thin:@dilbert.humber.ca:1521:grok";
-		
-			Class.forName("oracle.jdbc.driver.OracleDriver").newInstance();
-			Connection connection = DriverManager.getConnection(url, name,password);
-			if (connection != null) {
-				Statement statement = connection.createStatement();
-				int count = statement.executeUpdate("UPDATE JAVA_PROJECT_ROOM SET FLOOR = '"+floor+"',PRICE="+price+",SPECIFICATION='"+details+"' WHERE ROOMID = '"+roomID+"' ");
-			}
-                        connection.close();
-                        %>
+            { %>
                             <div class="thumbnail">
                                 <img src="dist/pics/done.jpg" alt="...">
                                 <div class="caption">

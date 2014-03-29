@@ -8,6 +8,10 @@
         <servlet-name>delete</servlet-name>
         <servlet-class>beans.delete</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>deleteBook</servlet-name>
+        <servlet-class>beans.deleteBook</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>destroy</servlet-name>
         <url-pattern>/destroy.jsp</url-pattern>
@@ -15,6 +19,10 @@
     <servlet-mapping>
         <servlet-name>delete</servlet-name>
         <url-pattern>/delete.jsp</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>deleteBook</servlet-name>
+        <url-pattern>/deleteBook.jsp</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

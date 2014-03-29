@@ -102,12 +102,12 @@
                 {%>
                 <form  role="form" method="post" action="login.jsp">
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Name</label>
-                        <input type="text" class="form-control" id="exampleInputEmail1" name="userName" placeholder="<% out.print(session.getAttribute("userName").toString()); %>">
+                        <label for="exampleInputEmail1">Name:</label>
+                        <label for="exampleInputEmail1"><% out.print(session.getAttribute("userName").toString()); %></label>
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputPassword1">User Level</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1" name="userPwd" placeholder="ADMIN">
+                        <label for="exampleInputPassword1">User Level:</label>
+                        <label for="exampleInputPassword1">Admin</label>
                     </div>
                     <a href="admin.jsp" class="btn btn-info" role="button">Admin Page</a>
                     <a href="destroy.jsp" class="btn btn-info" role="button">Logout</a>
@@ -117,12 +117,12 @@
                 {%>
                 <form  role="form" method="post" action="login.jsp">
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Name</label>
-                        <input type="text" class="form-control" id="exampleInputEmail1" name="userName" placeholder="<% out.print(session.getAttribute("userName").toString()); %>">
+                        <label for="exampleInputEmail1">Name:</label>
+                        <label for="exampleInputEmail1"><% out.print(session.getAttribute("userName").toString()); %></label>
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputPassword1">User Level</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1" name="userPwd" placeholder="REGULAR USER">
+                        <label for="exampleInputPassword1">User Level:</label>
+                        <label for="exampleInputPassword1">User</label>
                     </div>
                     <a href="book.jsp" class="btn btn-info" role="button">User Page</a>
                     <a href="destroy.jsp" class="btn btn-info" role="button">Logout</a>
@@ -130,8 +130,9 @@
                 <%
                 }
 		%>
+                            <hr/>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2444.161338395607!2d-79.38705699999988!3d43.64256601595129!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b34d68bf33a9b%3A0x15edd8c4de1c7581!2sCN+Tower!5e1!3m2!1szh-CN!2sca!4v1395935391847" width="360" height="280" frameborder="0" style="border:0">   
-                </iframe>
+                    </iframe>
                         </div>
                     </div>
                 <div class="row">

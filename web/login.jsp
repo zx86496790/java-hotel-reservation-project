@@ -16,7 +16,8 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>LOGIN</title>
+        <link rel="stylesheet" href="dist/css/bootstrap.min.css">
     </head>
     <body>
               <%
@@ -50,7 +51,24 @@
                                }
                                if(flag==false)
                                {
-                                   out.println("user not exist");
+                                   %>
+                                   <div class="container">
+                                       <div class="row">
+                                           <div class="col-md-4"></div>
+                                           <div class="col-md-4">
+                                                <div class="thumbnail">
+                                                    <img src="dist/pics/NoUser.jpg" alt="...">
+                                                    <div class="caption">
+                                                    <h3>NO SUCH USER EXISTS</h3>
+                                                    <p>YOU MUST ASK ADMIN TO GET AN ACCOUNT</p>
+                                                    <p><a href="index.jsp" class="btn btn-primary btn-lg btn-block" role="button">GO BACK</a> </p>
+                    </div>
+                </div>
+                                           </div>
+                                           <div class="col-md-4"></div>
+                                       </div>
+                                   </div>
+                                   <%
                                }
                                else
                                {
@@ -70,5 +88,10 @@
                             out.println("DB ERROR");
                         }
         %>
+        
+         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="dist/js/jquery-1.10.2.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="dist/js/bootstrap.min.js"></script>  
     </body>
 </html>
